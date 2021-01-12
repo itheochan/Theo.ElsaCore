@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7AC53234-56CB-45E9-9565-6EFA296530A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{1D3D01EB-B532-4536-8F40-8DB8FF15431D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Data\elsa.db = ..\..\..\Data\elsa.db
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theo.Webapi", "src\Theo.Webapi\Theo.Webapi.csproj", "{0DC26F18-42A4-489F-B330-61EB60A71118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC26F18-42A4-489F-B330-61EB60A71118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC26F18-42A4-489F-B330-61EB60A71118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC26F18-42A4-489F-B330-61EB60A71118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC26F18-42A4-489F-B330-61EB60A71118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DC26F18-42A4-489F-B330-61EB60A71118} = {7AC53234-56CB-45E9-9565-6EFA296530A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86064B69-521C-4633-A88D-1E911B187662}
+	EndGlobalSection
+EndGlobal
